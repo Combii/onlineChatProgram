@@ -1,8 +1,6 @@
-package com.faisal;
+package com.David;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by faisaljarkass on 25/08/16.
