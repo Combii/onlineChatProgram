@@ -2,9 +2,6 @@ package com.David;
 
 import org.junit.Test;
 
-/**
- * Created by faisaljarkass on 25/08/16.
- */
 public class MyServletTest {
 
     @Test
