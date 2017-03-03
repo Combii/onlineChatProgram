@@ -27,13 +27,12 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-<H1 class="text-center">My First Web App</H1>
+<H1 class="text-center">Online ChatProgram</H1>
 
 <div class="wrapper">
     <form class="form-signin" method="POST" action="MyServlet">
-        <h2 class="form-signin-heading">Please login</h2>
-        <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus=""/>
-        <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
+        <h2 class="form-signin-heading">Enter Username</h2>
+        <input type="text" class="form-control" name="username" placeholder="Username" required="" autofocus=""/>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
     </form>
 </div>
