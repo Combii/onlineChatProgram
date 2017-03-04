@@ -11,7 +11,7 @@ public class MyServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/secondPage/navbar.html");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/javaApp.html");
         dispatcher.forward(request, response);
 
 
